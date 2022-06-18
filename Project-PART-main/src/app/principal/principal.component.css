@@ -1,0 +1,14 @@
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-right: inherit;
+}
+.jumbotron{
+  background: #2E327C;
+}
+body{
+  background: #2E327C;
+}
+
