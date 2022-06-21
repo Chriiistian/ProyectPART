@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CargarPythonService} from "../cargar-python.service" ;
 
 @Component({
   selector: 'app-principal',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrincipalComponent implements OnInit {
 
-  constructor() { }
+  constructor( private _CargarPython:CargarPythonService)
+  {
+    _CargarPython.Carga(["mapa"]);
+   }
 
   ngOnInit(): void {
   }
