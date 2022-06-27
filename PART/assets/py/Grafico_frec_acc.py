@@ -34,13 +34,14 @@ mediaLat = mean(Lat)
 
 mapa = Map(location=[mediaLat, mediaLong], zoom_start = 13)
 
-tooltip = 'Frecuencia de Accidentes'
-radio = 150
+tooltip = 'Zona con mayor frecuencia de accidentes'
+radio = 150 #150 como inicio
 Circle([KMean.cluster_centers_[0][0], KMean.cluster_centers_[0][1]], popup="Centro", tooltip = tooltip, radius= radio, fill = True,color = "#DB4646" ).add_to(mapa)
 Circle([KMean.cluster_centers_[1][0], KMean.cluster_centers_[1][1]], popup="Centro", tooltip = tooltip, radius= radio, fill = True,color = "#DB4646" ).add_to(mapa)
 Circle([KMean.cluster_centers_[2][0], KMean.cluster_centers_[2][1]], popup="Centro", tooltip = tooltip, radius= radio, fill = True,color = "#DB4646" ).add_to(mapa)
 Circle([KMean.cluster_centers_[3][0], KMean.cluster_centers_[3][1]], popup="Centro", tooltip = tooltip, radius= radio, fill = True,color = "#DB4646" ).add_to(mapa)
 Circle([KMean.cluster_centers_[4][0], KMean.cluster_centers_[4][1]], popup="Centro", tooltip = tooltip, radius= radio, fill = True,color = "#DB4646" ).add_to(mapa)
-mapa
-mapa.save("prueba_mapa.html")
+mapa.save("mapas/prueba_mapa.html")
+print("Mapa Actualizado")
+
 
