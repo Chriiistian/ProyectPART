@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_54c42cdefb5c52934cb49e4f1492e561 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_54c42cdefb5c52934cb49e4f1492e561" ></div>
+        
+</body>
+<script>    
+    
+            var map_54c42cdefb5c52934cb49e4f1492e561 = L.map(
+                "map_54c42cdefb5c52934cb49e4f1492e561",
+                {
+                    center: [-20.23987926645278, -70.13131176557049],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e93cc139bef569b1fe40a73476357c60 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            var circle_f54455604f5e1c13a5b28508c3122bb4 = L.circle(
+                [-20.22697934270557, -70.14029999991158],
+                {"bubblingMouseEvents": true, "color": "#0078FF", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0078FF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 750, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_f54455604f5e1c13a5b28508c3122bb4.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d8136225b803a8d1f954dffe2fffa841 = L.circle(
+                [-20.27356489267857, -70.10516145928571],
+                {"bubblingMouseEvents": true, "color": "#0078FF", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0078FF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 750, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_d8136225b803a8d1f954dffe2fffa841.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2e5d3a846fdf72ecd11cfc957344194c = L.circle(
+                [-20.22697934270557, -70.14029999991158],
+                {"bubblingMouseEvents": true, "color": "#00FF3E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00FF3E", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 600, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_2e5d3a846fdf72ecd11cfc957344194c.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9607f1c09b936245dd6bdf4abe2e5f7c = L.circle(
+                [-20.27356489267857, -70.10516145928571],
+                {"bubblingMouseEvents": true, "color": "#00FF3E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00FF3E", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 600, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_9607f1c09b936245dd6bdf4abe2e5f7c.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_790bfee70781caa06e260f0ecceb2835 = L.circle(
+                [-20.22697934270557, -70.14029999991158],
+                {"bubblingMouseEvents": true, "color": "#FFF700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFF700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_790bfee70781caa06e260f0ecceb2835.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_883e7f3aab2faecfd0c45326b58eec72 = L.circle(
+                [-20.27356489267857, -70.10516145928571],
+                {"bubblingMouseEvents": true, "color": "#FFF700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFF700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_883e7f3aab2faecfd0c45326b58eec72.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_86a3170f0e49f36efe706cdcdd5cd465 = L.circle(
+                [-20.22697934270557, -70.14029999991158],
+                {"bubblingMouseEvents": true, "color": "#FF9300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF9300", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_86a3170f0e49f36efe706cdcdd5cd465.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_292b4ebd19e497bc4cb9fb4bac515b7e = L.circle(
+                [-20.27356489267857, -70.10516145928571],
+                {"bubblingMouseEvents": true, "color": "#FF9300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF9300", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_292b4ebd19e497bc4cb9fb4bac515b7e.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8dd8d23960bc2f0a82e86fe6c13cff41 = L.circle(
+                [-20.22697934270557, -70.14029999991158],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_8dd8d23960bc2f0a82e86fe6c13cff41.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d21f3dbdd477ae3a54d39e3f01ef51bf = L.circle(
+                [-20.27356489267857, -70.10516145928571],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_54c42cdefb5c52934cb49e4f1492e561);
+        
+    
+            circle_d21f3dbdd477ae3a54d39e3f01ef51bf.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de lesionados leves
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
