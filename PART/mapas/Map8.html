@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b1b4e4a79b5de6ab18cc591369d23317 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b1b4e4a79b5de6ab18cc591369d23317" ></div>
+        
+</body>
+<script>    
+    
+            var map_b1b4e4a79b5de6ab18cc591369d23317 = L.map(
+                "map_b1b4e4a79b5de6ab18cc591369d23317",
+                {
+                    center: [-20.242803082358773, -70.12912097581764],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a234eb83d0637fd45db88c58bc83252a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            var circle_65bd0aee54d3371c61ee494255e7871a = L.circle(
+                [-20.22834908488889, -70.13953281807407],
+                {"bubblingMouseEvents": true, "color": "#0078FF", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0078FF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 750, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_65bd0aee54d3371c61ee494255e7871a.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_10fa63564f7be3c5f01b4cd93c719ba8 = L.circle(
+                [-20.27201400538922, -70.10807907904191],
+                {"bubblingMouseEvents": true, "color": "#0078FF", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0078FF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 750, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_10fa63564f7be3c5f01b4cd93c719ba8.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_911c542ffe8222102d6d813b10c91c5a = L.circle(
+                [-20.22834908488889, -70.13953281807407],
+                {"bubblingMouseEvents": true, "color": "#00FF3E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00FF3E", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 600, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_911c542ffe8222102d6d813b10c91c5a.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b97bb71f9d72905d2c029fdceab74b02 = L.circle(
+                [-20.27201400538922, -70.10807907904191],
+                {"bubblingMouseEvents": true, "color": "#00FF3E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00FF3E", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 600, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_b97bb71f9d72905d2c029fdceab74b02.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1e7c9391e4bf00dfc572fdb8e5a779a1 = L.circle(
+                [-20.22834908488889, -70.13953281807407],
+                {"bubblingMouseEvents": true, "color": "#FFF700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFF700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_1e7c9391e4bf00dfc572fdb8e5a779a1.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_064148343b3959d76cf467a25835b2e4 = L.circle(
+                [-20.27201400538922, -70.10807907904191],
+                {"bubblingMouseEvents": true, "color": "#FFF700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFF700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_064148343b3959d76cf467a25835b2e4.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e946752e26c58670b0acd504a4b4e28d = L.circle(
+                [-20.22834908488889, -70.13953281807407],
+                {"bubblingMouseEvents": true, "color": "#FF9300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF9300", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_e946752e26c58670b0acd504a4b4e28d.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0116fba95fd6bddceca79f888eb7026d = L.circle(
+                [-20.27201400538922, -70.10807907904191],
+                {"bubblingMouseEvents": true, "color": "#FF9300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF9300", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_0116fba95fd6bddceca79f888eb7026d.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b52f7bc5c28ba8e5efd9060684bce97d = L.circle(
+                [-20.22834908488889, -70.13953281807407],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_b52f7bc5c28ba8e5efd9060684bce97d.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5b4136e44da844a6adcce77f95ac0349 = L.circle(
+                [-20.27201400538922, -70.10807907904191],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_b1b4e4a79b5de6ab18cc591369d23317);
+        
+    
+            circle_5b4136e44da844a6adcce77f95ac0349.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de accidentes en la mañana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

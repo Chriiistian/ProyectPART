@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3f301a22e5795bd4d364c743c21db61c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3f301a22e5795bd4d364c743c21db61c" ></div>
+        
+</body>
+<script>    
+    
+            var map_3f301a22e5795bd4d364c743c21db61c = L.map(
+                "map_3f301a22e5795bd4d364c743c21db61c",
+                {
+                    center: [-20.23987926645278, -70.13131176557049],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b6fdb1e13d6e0ca7ad73bfa8c4993778 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            var circle_063aba22927b1ceada645fc6a5a5417a = L.circle(
+                [-20.236350627272728, -70.13870766363637],
+                {"bubblingMouseEvents": true, "color": "#0078FF", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0078FF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 750, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_063aba22927b1ceada645fc6a5a5417a.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ab8e720fc538633aa6d42f9d91931d9d = L.circle(
+                [-20.27732925, -70.0956584],
+                {"bubblingMouseEvents": true, "color": "#0078FF", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0078FF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 750, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_ab8e720fc538633aa6d42f9d91931d9d.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a8e7d87dc8d74d764dd01b40510935c7 = L.circle(
+                [-20.236350627272728, -70.13870766363637],
+                {"bubblingMouseEvents": true, "color": "#00FF3E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00FF3E", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 600, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_a8e7d87dc8d74d764dd01b40510935c7.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_49c259b33d0d4ecad794e7f218a20b56 = L.circle(
+                [-20.27732925, -70.0956584],
+                {"bubblingMouseEvents": true, "color": "#00FF3E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00FF3E", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 600, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_49c259b33d0d4ecad794e7f218a20b56.bindTooltip(
+                `<div>
+                     Zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6d35e285053ee96a487f024b83d38f2c = L.circle(
+                [-20.236350627272728, -70.13870766363637],
+                {"bubblingMouseEvents": true, "color": "#FFF700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFF700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_6d35e285053ee96a487f024b83d38f2c.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a33594c59d43f49a1a8037bbc064bb70 = L.circle(
+                [-20.27732925, -70.0956584],
+                {"bubblingMouseEvents": true, "color": "#FFF700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFF700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_a33594c59d43f49a1a8037bbc064bb70.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_296a6ca44e666d37faf41bb45c637153 = L.circle(
+                [-20.236350627272728, -70.13870766363637],
+                {"bubblingMouseEvents": true, "color": "#FF9300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF9300", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_296a6ca44e666d37faf41bb45c637153.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4413c1fdf2f28726be9cdab21f570ed3 = L.circle(
+                [-20.27732925, -70.0956584],
+                {"bubblingMouseEvents": true, "color": "#FF9300", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF9300", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_4413c1fdf2f28726be9cdab21f570ed3.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_07aed6bbc7ad31fef07bc643dae45930 = L.circle(
+                [-20.236350627272728, -70.13870766363637],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_07aed6bbc7ad31fef07bc643dae45930.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e5d81726acb3b1d950e491ec8af3435d = L.circle(
+                [-20.27732925, -70.0956584],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_3f301a22e5795bd4d364c743c21db61c);
+        
+    
+            circle_e5d81726acb3b1d950e491ec8af3435d.bindTooltip(
+                `<div>
+                     Centro de zona con mas frecuencia de fallecidos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
